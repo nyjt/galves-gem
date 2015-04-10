@@ -24,16 +24,17 @@ Set galves api_key:
 
 ## Usage
 
-    1. Fetch all available years:
+1. Fetch all available years:
 ```ruby
 Galves.years
 ```
-    2. Fetch all available makes:
+
+2. Fetch all available makes:
 ```ruby
 Galves.makes
 ```
 
-    3. Fetch makes by year:
+3. Fetch makes by year:
 
 ```ruby
 Galves.makes_by_year(integer)
