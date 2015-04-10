@@ -34,80 +34,67 @@ Galves.years
 Galves.makes
 ```
 
-3. Fetch makes by year:
-
+#### 3. Fetch makes by year:
 ```ruby
 Galves.makes_by_year(integer)
 ```
 
-    4. Fetch years for specific make:
-
+#### 4. Fetch years for specific make:
 ```ruby
 Galves.years_by_make(string)
 ```
 
-    5. Fetch available models:
-
+#### 5. Fetch available models:
 ```ruby
 Galves.models(integer, string)
 ```
 
-    6. Fetch available styles:
-
+#### 6. Fetch available styles:
 ```ruby
 Galves.styles(integer, string)
 ```
 
-    7. Fetch specific vehicle:
-
+#### 7. Fetch specific vehicle:
 ```ruby
 Galves.vehicle(integer, string)
 ```
 
-    8. Fetch VIN:
-
+#### 8. Fetch VIN:
 ```ruby
 Galves.vin(integer)
 ```
 
-    9. Fetch mileage:
-
+#### 9. Fetch mileage:
 ```ruby
 Galves.mileage(integer, integer)
 ```
 
-    10. Fetch historical years:
-
+#### 10. Fetch historical years:
 ```ruby
 Galves.history_years
 ```
 
-    11. Fetch historical makes:
-
+#### 11. Fetch historical makes:
 ```ruby
 Galves.history_makes
 ```
 
-    12. Fetch historical makes by year:
-
+#### 12. Fetch historical makes by year:
 ```ruby
 Galves.history_makes_by_year(integer)
 ```
 
-    13. Fetch historical years for specific make:
-
+#### 13. Fetch historical years for specific make:
 ```ruby
 Galves.history_years_by_make(string)
 ```
 
-    14. Fetch historical available models:
-
+#### 14. Fetch historical available models:
 ```ruby
 Galves.history_models(integer, string)
 ```
 
-    15. Fetch historical available styles:
-
+#### 15. Fetch historical available styles:
 ```ruby
 Galves.history_styles(integer, string)
 ```
