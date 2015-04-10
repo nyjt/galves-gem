@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.galves.com/years/byMake/Honda?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:38:03 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '193'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '[{"year":"2003"},{"year":"2004"},{"year":"2005"},{"year":"2006"},{"year":"2007"},{"year":"2008"},{"year":"2009"},{"year":"2010"},{"year":"2011"},{"year":"2012"},{"year":"2013"},{"year":"2014"}]'
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:36:52 GMT
+recorded_with: VCR 2.9.3

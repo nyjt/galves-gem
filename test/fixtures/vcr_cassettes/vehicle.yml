@@ -1,0 +1,156 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.galves.com/vehicle/0?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:44:39 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:43:28 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/vehicle/305562?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:45:08 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '1735'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"book":"T","year":"2008","make":"MERCURY","model":"MOUNTAINEER","style":"4
+        DOOR SUV 4.6L V8","body":"4 DOOR SUV","engtype":"4.6L V8","vintrim":null,"basemiles":"80000","includes":"AC
+        STD","guid":"305562","proxy":"None  ti: 8000 gmr: 9050 adj: -0.2","trade":"8000","market":"9050","vacsadj":0,"vacs":[{"id":0,"addded":"D","desc":"WITHOUT
+        3RD SEAT","amt":"-600","inc":false,"ro":false,"exc":[]},{"id":1,"addded":"D","desc":"WITHOUT
+        4 WHEEL DRIVE","amt":"-1300","inc":false,"ro":false,"exc":[]},{"id":2,"addded":"D","desc":"WITHOUT
+        LEATHER","amt":"-500","inc":false,"ro":false,"exc":[]},{"id":3,"addded":"D","desc":"WITHOUT
+        V8","amt":"-550","inc":false,"ro":false,"exc":[]},{"id":4,"addded":"A","desc":"DVD
+        ENTERTAINMENT SYSTEM","amt":"200","inc":false,"ro":false,"exc":[]},{"id":5,"addded":"A","desc":"MOON
+        ROOF (POWER)","amt":"500","inc":false,"ro":false,"exc":[]},{"id":6,"addded":"A","desc":"NAVIGATION","amt":"200","inc":false,"ro":false,"exc":[]},{"id":7,"addded":"A","desc":"REAR
+        AC","amt":"400","inc":false,"ro":false,"exc":[]}],"conditionadj":{"odor":-275,"frame":-1575,"lights":-275,"prevUS":-225,"wheels":-125,"tires":-75,"panelsRepaired":-125,"panelsToRepair":-150,"pdr":-40,"colors":[{"color":"Unknown","adj":0},{"color":"Black","adj":150},{"color":"Brown","adj":-175},{"color":"Burgundy","adj":-150},{"color":"Charcoal
+        Grey","adj":150},{"color":"Dark Blue","adj":-175},{"color":"Dark Green","adj":-225},{"color":"Gold","adj":-225},{"color":"Light
+        Blue","adj":-225},{"color":"Light Green","adj":-225},{"color":"Orange","adj":75},{"color":"Pearl
+        White","adj":150},{"color":"Purple","adj":-225},{"color":"Red","adj":-150},{"color":"Silver","adj":-100},{"color":"White","adj":75},{"color":"Yellow","adj":-150}]},"retail":11550}'
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:43:58 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/vehicle/305562/4m2eu38ex8?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:45:30 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '1737'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"book":"T","year":"2008","make":"MERCURY","model":"MOUNTAINEER","style":"4
+        DOOR SUV 4.6L V8","body":"4 DOOR SUV","engtype":"4.6L V8","vintrim":null,"basemiles":"80000","includes":"AC
+        STD","guid":"305562","proxy":"None  ti: 8000 gmr: 9050 adj: -0.2","trade":"8000","market":"9050","vacsadj":-1850,"vacs":[{"id":0,"addded":"D","desc":"WITHOUT
+        3RD SEAT","amt":"-600","inc":false,"ro":false,"exc":[]},{"id":1,"addded":"D","desc":"WITHOUT
+        4 WHEEL DRIVE","amt":"-1300","inc":true,"ro":false,"exc":[]},{"id":2,"addded":"D","desc":"WITHOUT
+        LEATHER","amt":"-500","inc":false,"ro":false,"exc":[]},{"id":3,"addded":"D","desc":"WITHOUT
+        V8","amt":"-550","inc":true,"ro":false,"exc":[]},{"id":4,"addded":"A","desc":"DVD
+        ENTERTAINMENT SYSTEM","amt":"200","inc":false,"ro":false,"exc":[]},{"id":5,"addded":"A","desc":"MOON
+        ROOF (POWER)","amt":"500","inc":false,"ro":false,"exc":[]},{"id":6,"addded":"A","desc":"NAVIGATION","amt":"200","inc":false,"ro":false,"exc":[]},{"id":7,"addded":"A","desc":"REAR
+        AC","amt":"400","inc":false,"ro":false,"exc":[]}],"conditionadj":{"odor":-275,"frame":-1575,"lights":-275,"prevUS":-225,"wheels":-125,"tires":-75,"panelsRepaired":-125,"panelsToRepair":-150,"pdr":-40,"colors":[{"color":"Unknown","adj":0},{"color":"Black","adj":150},{"color":"Brown","adj":-175},{"color":"Burgundy","adj":-150},{"color":"Charcoal
+        Grey","adj":150},{"color":"Dark Blue","adj":-175},{"color":"Dark Green","adj":-225},{"color":"Gold","adj":-225},{"color":"Light
+        Blue","adj":-225},{"color":"Light Green","adj":-225},{"color":"Orange","adj":75},{"color":"Pearl
+        White","adj":150},{"color":"Purple","adj":-225},{"color":"Red","adj":-150},{"color":"Silver","adj":-100},{"color":"White","adj":75},{"color":"Yellow","adj":-150}]},"retail":11550}'
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:44:20 GMT
+recorded_with: VCR 2.9.3

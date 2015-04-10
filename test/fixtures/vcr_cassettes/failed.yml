@@ -1,0 +1,873 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.galves.com/makes/byYear/1?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:18:53 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:17:43 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/makes/byYear/1?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:24:37 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - HIT from sr2:3128, HIT from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:23:27 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/years/byMake/AnyNonCar?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:38:03 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:36:53 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/years/byMake/AnyNonCar?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:38:03 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:36:53 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/models/1/AnyNonCar?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:39:16 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:38:05 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/models/1/AnyNonCar?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:39:16 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Age:
+      - '1'
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:38:06 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/styles/1/AnyNonCar/cr-v?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:41:08 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:39:58 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/styles/1/AnyNonCar/cr-v?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:41:08 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:39:58 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/vehicle/0/AnyNonCar?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:46:00 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:44:49 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/vehicle/0/AnyNonCar?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:46:00 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:44:49 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/vehicleByVIN/0?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:48:24 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:47:14 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/vehicleByVIN/0?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:48:24 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:47:14 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/vehicle/0/mileage/1000?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 500
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:53:49 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '143'
+      Content-Type:
+      - text/html
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"error": "500", "description":"2015-04-10T08:53:50-05:00: Problem
+        with CAPL Services.  Please contact technical support for more information."'
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:52:39 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/vehicle/0/mileage/1000?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 500
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:53:49 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '143'
+      Content-Type:
+      - text/html
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"error": "500", "description":"2015-04-10T08:53:50-05:00: Problem
+        with CAPL Services.  Please contact technical support for more information."'
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:52:39 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/histmakes/byYear/1?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:59:28 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:58:17 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/histmakes/byYear/1?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:59:28 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:58:17 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/histmodels/1/AnyNonCar?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 14:10:48 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 14:09:38 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/histmodels/1/AnyNonCar?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 14:10:48 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 14:09:38 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/histstyles/1/AnyNonCar/cr-v?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 14:11:27 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 14:10:16 GMT
+- request:
+    method: get
+    uri: http://api.galves.com/histstyles/1/AnyNonCar/cr-v?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 14:11:27 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, HIT from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, HIT from sr1:3128
+      Age:
+      - '1'
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: No data available for the Vehicle.
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 14:10:17 GMT
+recorded_with: VCR 2.9.3

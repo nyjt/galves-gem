@@ -37,7 +37,7 @@ module Galves
         make_request :get, "/vehicle/#{gid}" + (vin.nil? ? '' : "/#{vin}")
       end
 
-      # Fetch VIN 3GNFK123X9:
+      # Fetch VIN:
       def vin(vin)
         make_request :get, '/vehicleByVIN/' + vin.to_s
       end

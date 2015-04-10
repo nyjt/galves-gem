@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.galves.com/histyears/byMake/Honda?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 404
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 14:09:03 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '514'
+      Content-Type:
+      - text/html
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: <html><head><title>404 Page Not Found</title><style>body{margin:0;padding:30px;font:12px/1.5
+        Helvetica,Arial,Verdana,sans-serif;}h1{margin:0;font-size:48px;font-weight:normal;line-height:48px;}strong{display:inline-block;width:65px;}</style></head><body><h1>404
+        Page Not Found</h1><p>The page you are looking for could not be found. Check
+        the address bar to ensure your URL is spelled correctly. If all else fails,
+        you can visit our home page at the link below.</p><a href="/">Visit the Home
+        Page</a></body></html>
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 14:07:53 GMT
+recorded_with: VCR 2.9.3

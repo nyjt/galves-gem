@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.galves.com/histmakes?apiKey=WEoMV2hxV93h2eL8o7msu7cT5R9604Qs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.44.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Date:
+      - Fri, 10 Apr 2015 13:58:31 GMT
+      Server:
+      - Apache/2.2.16 (Debian)
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - X-Accept-Charset,X-Accept,Content-Type
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, OPTIONS, PATCH, DELETE
+      Content-Length:
+      - '988'
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from sr2, MISS from sr1
+      X-Cache-Lookup:
+      - MISS from sr2:3128, MISS from sr1:3128
+      Via:
+      - 1.1 sr2:3128 (squid/2.7.STABLE9), 1.0 sr1:3128 (squid/2.7.STABLE9)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '[{"make":"ACURA"},{"make":"ALFA ROMEO"},{"make":"AM GENERAL"},{"make":"AUDI"},{"make":"BMW"},{"make":"BUICK"},{"make":"CADILLAC"},{"make":"CHEVROLET
+        CARS"},{"make":"CHEVROLET TRUCK"},{"make":"CHRYSLER"},{"make":"COLT"},{"make":"DAEWOO"},{"make":"DODGE
+        CARS"},{"make":"DODGE TRUCK"},{"make":"EAGLE"},{"make":"FIAT"},{"make":"FORD
+        CARS"},{"make":"FORD TRUCK"},{"make":"GEO"},{"make":"GMC"},{"make":"HONDA"},{"make":"HUMMER"},{"make":"HYUNDAI"},{"make":"INFINITI"},{"make":"ISUZU"},{"make":"JAGUAR"},{"make":"JEEP"},{"make":"KIA"},{"make":"LAND
+        ROVER"},{"make":"LAND\/RANGE ROVER"},{"make":"LEXUS"},{"make":"LINCOLN"},{"make":"MAZDA"},{"make":"MERCEDES
+        BENZ"},{"make":"MERCURY"},{"make":"MINI"},{"make":"MITSUBISHI"},{"make":"NISSAN"},{"make":"OLDSMOBILE"},{"make":"PLYMOUTH"},{"make":"PONTIAC"},{"make":"PORSCHE"},{"make":"RAM"},{"make":"SAAB"},{"make":"SATURN"},{"make":"SCION"},{"make":"SMART"},{"make":"SUBARU"},{"make":"SUZUKI"},{"make":"TOYOTA"},{"make":"VOLKSWAGEN"},{"make":"VOLVO"}]'
+    http_version: 
+  recorded_at: Fri, 10 Apr 2015 13:57:20 GMT
+recorded_with: VCR 2.9.3
