@@ -20,6 +20,7 @@ Or install it yourself as:
 
 Set galves api_key:
 ```ruby
+require 'galves'
 Galves.api_key = 'YOUR-API-KEY'
 ```
 
