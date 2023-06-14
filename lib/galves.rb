@@ -22,6 +22,6 @@ module Galves
 
   end
 
-  self.host = 'http://api.galves.com'
+  self.host = 'https://api.galves.com'
 
 end
